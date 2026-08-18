@@ -37,8 +37,11 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-example
-
 # generated native folders
 /ios
 /android
+
+# AI assistant config (local dev tooling, not part of the app)
+.claude/
+CLAUDE.md
+AGENTS.md
