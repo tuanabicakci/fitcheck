@@ -34,7 +34,15 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Fit Check uses your location to show today's weather."
+        }
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
